@@ -1,0 +1,37 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+R - Cria-se um arquivo .git que fica oculto para o usuário, onde mantem grandes quantidades de metadados em que o mesmo não precisa interagir. Para o usuário poder usar os repositórios do git iniciando ele do zero caso não se tenha clonado.
+
+-----------------------------------------------------------
+REVISAR
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+R - Na area de preparação do diretório de trabalho é aonde voce coloca coisas antes de efetuar um commit
+
+------------------------------------------------------------------
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+R - 
+----------------------------------------------------------------
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+R - Quando se tem testes a ser feitos e nao quer alterar o branch master. A inclusão de uma alteração que pode ocasionar um bug.
+Criando um branch podemos orgizar todas as alterações sem denificar o branch master, fazer testes, incluir algo diferente no programa, organizar o trabalho principalmente quando voce trabalha publicamente entre outros.
+
+------------------------------------------------------------- 
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+R - Pois no diagramas podemos identificar os branchs criados, qual o momento exato que foram criados, a sequencia de commits indetificados pelas msgs ate determinado branch e o branch master, assim podemos ter uma noção de como as coisas estão sendo feitas e quais estão em andamento, o que já foram feitas.
+
+-----------------------------------------------------------
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+---------------------------------------------------------------
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+----------------------------------------------------------------

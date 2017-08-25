@@ -1,0 +1,42 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda
+você a ver o bug que foi introduzido?
+Ajuda se as linhas forem mais curtas, assim será mais rápido visualizar o bug, mesmo que o diff não indique o local exato.
+
+------------------------------------------------------
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+Com o acesso a o histórico de um arquivo o programador pode verificar onde ele melhorou, onde introduziu um bug ou até mesmo ver como pode melhorar comparando as verões anteriores do arquivo.
+
+------------------------------------------------------
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+Manualmente um commit (GIT)
+Prós -> Pode-se controlar o momento certo para os commits, sem que seja comitado algo desnecessário.
+
+Contras -> Pode-se haver o esquecimento de comitar algo que seja importante.
+
+Salvamento automático de versões (GOOGLE DOCS)
+Prós -> Você não precisa se preocupar com o esquecimento de salvar algo que esteja sendo alterado.
+
+Contras -> Pode haver muitos commits o que torna mais dificil a visualização de uma versão, qual o momento exato que foi alterado tal funções entre outros. 
+
+-------------------------------------------------------
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+Por que facilita no manuseio das versões,pois muitas funções, metodos entre outros existentes em um arquivo precisam de outros arquivos para funcionarem, então sempre que é alterado algo em um arquivo é sempre bom que os outros também sejam.
+
+-----------------------------------------------------
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+Primeiramente deve-se fazer um git log assim você irá ter todos o histórico de commits com seus devidos códigos data e hora o autor e uma mensagem identificando uma mensagem daquele commit, depois com o git diff você pode comparar as versões dos arquivos que foram alterados, usando dois commits obtidos apartir do git log.
+
+-----------------------------------------------------
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+Disponibilizando funções que auxiliam nessa segurança que é o caso do git checkout no Git, assim sabendo o commit exato onde está danificando podemos voltar para a versão danificada e corrigi-la.
+
+------------------------------------------------------
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
